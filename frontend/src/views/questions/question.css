@@ -1,0 +1,56 @@
+#answers {
+  width: 50%;
+  margin: 2em auto;
+  text-align: left;
+}
+.answer {
+  font-size: 1.3em;
+  padding: 0.3em;
+}
+.answer input {
+  margin-right: 0.7em;
+}
+.nextButton {
+  margin: 2em auto;
+}
+.questionCard{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color:  #FFE599 ! important;
+}
+.questionCard h3{
+  background: linear-gradient(
+    to right, 
+    rgb(252, 168, 0),
+    rgb(255, 0, 0)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 5vmin;
+  line-height: 1.1;
+  font-family: URW Chancery;
+  font-weight: bold;
+}
+.answersCard{
+  background-color: #F5D46F ! important;
+}
+
+.answersCard p{
+  background: linear-gradient(
+    to right, 
+    rgb(255, 0, 0), 
+    rgb(0, 59, 252)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  line-height: 1.1;
+  font-family: URW Chancery;
+  font-weight: bold;
+}
+.currentScore{
+  margin-top: 10%;
+  text-align: center;
+  color: aqua;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1 {
+    margin-top: 50px;
+    background: linear-gradient( to right, rgb(255, 61, 61), rgb(252, 143, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 5vmin;
+    line-height: 1.1;
+    font-family: URW Chancery;
+    font-weight: bold;
+}
+
+*>* {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+:root {
+    --color-dark: #2C3131;
+    --color-light: #F3F3F2;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.board {
+    text-align: center;
+}
+
+.board .leaderboard {
+    height: 80px;
+    display: inline-block;
+    line-height: 84%;
+    font-family: Modak;
+    padding-left: 7px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 7px 7px 0px #d2d2d200;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200px' height='200px' viewBox='0 0 400 400'%3e%3cdefs%3e%3cfilter id='filter' width='400px' height='400px' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3e%3cfeFlood flood-color='%23f5576c' flood-opacity='1' x='0' y='0' width='250px' height='250px' result='flood3'%3e%3c/feFlood%3e%3cfeFlood flood-color='%23f093fb' flood-opacity='1' x='150px' y='150px' width='250px' height='250px' result='flood4'%3e%3c/feFlood%3e%3cfeGaussianBlur stdDeviation='50 50' x='0%25' y='0%25' width='100%25' height='100%25' in='flood3' edgeMode='none' result='blur1'%3e%3c/feGaussianBlur%3e%3cfeGaussianBlur stdDeviation='50 50' x='0%25' y='0%25' width='100%25' height='100%25' in='flood4' edgeMode='none' result='blur2'%3e%3c/feGaussianBlur%3e%3cfeBlend mode='normal' x='0%25' y='0%25' width='100%25' height='100%25' in='blur2' in2='SourceGraphic' result='blend5'%3e%3c/feBlend%3e%3cfeBlend mode='normal' x='0%25' y='0%25' width='100%25' height='100%25' in='blur1' in2='blend5' result='blend6'%3e%3c/feBlend%3e%3c/filter%3e%3c/defs%3e%3crect width='400' height='400' x='0' y='0' fill='%23fee140' filter='url(%23filter)'%3e%3c/rect%3e%3c/svg%3e");
+    margin-top: 1em;
+}
+
+.board .duration {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.board .duration>button {
+    padding: .5em 2em;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.board .duration>button:hover {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+.active {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+#profile {
+    margin-top: 3em;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+#profile .flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+#profile .flex .item {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 40%;}
+
+#profile .flex .score {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffee07;
+    font-family: Arial rgb(252, 244, 0), Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(250, 138, 2), 1px 1px 0 rgb(245, 133, 0), 2px 2px 0 rgb(240, 128, 0), 3px 3px 0 rgb(235, 123, 0), 4px 4px 0 rgb(230, 118, 0), 5px 5px 0 rgb(225, 113, 0), 6px 6px 0 rgb(220, 108, 0), 7px 7px 0 rgb(215, 103, 0), 8px 8px 0 rgb(210, 98, 0), 9px 9px 0 rgb(205, 93, 0), 10px 10px 0 rgb(200, 88, 0), 11px 11px 10px rgba(0, 0, 0, 0.6), 11px 11px 1px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, .2);
+}
+
+#profile .flex img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+#profile .flex .info {
+    padding: 1em;
+    margin: auto;
+}
+
+.text-dark {
+    color: var(--color-dark);
+}

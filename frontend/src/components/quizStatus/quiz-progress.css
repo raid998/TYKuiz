@@ -1,0 +1,15 @@
+.dot {
+  margin: 1em;
+}
+
+.current {
+  color: crimson !important;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+.answered {
+  color: lime;
+}
+.unanswered {
+  color: rgb(167, 178, 167);
+}
